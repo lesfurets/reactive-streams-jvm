@@ -796,7 +796,7 @@ public abstract class PublisherVerification<T> implements PublisherVerificationR
 
   // Verifies rule: https://github.com/reactive-streams/reactive-streams-jvm#3.5
   @Override @Test
-  public void untested_spec305_cancelMustNotSynchronouslyPerformHeavyCompuatation() throws Exception {
+  public void untested_spec305_cancelMustNotSynchronouslyPerformHeavyComputation() throws Exception {
     notVerified(); // cannot be meaningfully tested, or can it?
   }
 

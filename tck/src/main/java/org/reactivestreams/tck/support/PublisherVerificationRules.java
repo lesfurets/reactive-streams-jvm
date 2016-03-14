@@ -32,7 +32,7 @@ public interface PublisherVerificationRules {
   void required_spec302_mustAllowSynchronousRequestCallsFromOnNextAndOnSubscribe() throws Throwable;
   void required_spec303_mustNotAllowUnboundedRecursion() throws Throwable;
   void untested_spec304_requestShouldNotPerformHeavyComputations() throws Exception;
-  void untested_spec305_cancelMustNotSynchronouslyPerformHeavyCompuatation() throws Exception;
+  void untested_spec305_cancelMustNotSynchronouslyPerformHeavyComputation() throws Exception;
   void required_spec306_afterSubscriptionIsCancelledRequestMustBeNops() throws Throwable;
   void required_spec307_afterSubscriptionIsCancelledAdditionalCancelationsMustBeNops() throws Throwable;
   void required_spec309_requestZeroMustSignalIllegalArgumentException() throws Throwable;
